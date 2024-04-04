@@ -10,7 +10,7 @@ Install the docker and start the services
 
 Docker manager
 ===================
-docker swarm init -advertise-addr (ipaddressofdockerswarm)
+docker swarm init --advertise-addr (ipaddressofdockerswarm)
 copy the command and paste in the dockler nodes machines 
 
 docker node ls
